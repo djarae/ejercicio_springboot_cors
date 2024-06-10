@@ -14,7 +14,10 @@ public class DemoCorsController {
 
 
   @GetMapping
-    public ResponseEntity<String> demoCors(){return new ResponseEntity<String>("Hola  Cha!", HttpStatus.OK);};
+    public ResponseEntity<String> demoCors(){
+
+    System.out.println("Komoo aqui se codifica");
+    return new ResponseEntity<String>("Hola  Charizard!", HttpStatus.OK);};
 
 
 
