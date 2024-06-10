@@ -8,7 +8,7 @@ public class DemoCorsController {
 
     @RequestMapping("/")
     public String DemoCors(){
-
+        System.out.println("Charizard indica que se llamo a api springboot");
         return "Hola buen ivysaur";
     }
 }
