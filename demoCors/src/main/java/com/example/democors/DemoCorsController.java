@@ -1,14 +1,23 @@
 package com.example.democors;
 
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+
 @RestController
+@RequestMapping("api/v1/democors")
+
 public class DemoCorsController {
 
-    @RequestMapping("/")
-    public String DemoCors(){
-        System.out.println("Charizard indica que se llamo a api springboot");
-        return "Hola buen ivysaur";
-    }
+
+  @GetMapping
+    public ResponseEntity<String> demoCors(){return new ResponseEntity<String>("Hola  Cha!", HttpStatus.OK);};
+
+
+
+
+
 }

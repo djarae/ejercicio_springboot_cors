@@ -1,7 +1,9 @@
 #Aprendizaje:
-* El nombre del controlador de la app debe ser el mismo que el de 
+#Controller: Crear app y controlador del mismo: 
+1* El nombre del controlador de la app debe ser el mismo que el de 
  la app + "controller" y funciona. Muy practico
 Tomcat/springboot por detras hace todo eso , es comodo
+tiempo aprendizaje: 2 hh 
 
 #Documentacion:
 1 Crear app y controlador de springboot :https://www.jetbrains.com/guide/java/tutorials/your-first-spring-application/creating-spring-controller/
